@@ -399,8 +399,8 @@ typedef struct {
 } RSDKTouchInfo;
 
 typedef struct {
-    // uint16 *frameBuffer;
-    uint16 frameBuffer[SCREEN_XMAX * SCREEN_YSIZE];
+     uint16 *frameBuffer;
+    //uint16 frameBuffer[SCREEN_XMAX * SCREEN_YSIZE];
     Vector2 position;
     Vector2 size;
     Vector2 center;
